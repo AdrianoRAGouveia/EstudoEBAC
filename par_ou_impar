@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {    // Faça um programa que o usuário digite um numero inteiro e tem como resposta ao usuário que é um Numero IMPAR.
+    inteiro  numImpar, numPar
+
+    escreva("Digite aqui um número qualquer: \n")
+    leia (numImpar)
+
+  
+    numPar = numImpar % 2
+
+    se(numPar !=0 ){
+    escreva ("Este Numero é Ímpar\n")
+    
+    
+    }
+    senao {
+    escreva ("Este Número é Par\n")
+    
+  
+    }
+    
+  }
+}
