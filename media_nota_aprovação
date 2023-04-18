@@ -1,0 +1,30 @@
+programa {
+  funcao inicio() {
+    real nota1, nota2, media
+  
+    escreva ("Olá Vamos ver a sua média\n")
+
+    escreva (  "Qual é a sua primeira Nota?\n")
+    leia (nota1)
+    escreva ("Você digitou sua nota: ",nota1,".\n")  
+
+    escreva (  "Qual é a sua primeira Nota?\n")
+    leia (nota2)
+    escreva ("Você digitou sua nota: ",nota2,".\n")
+
+    media = (nota1 + nota2 )/2
+    escreva ("sua média é : ", media".\n")
+
+    se (media > 8 ){
+       escreva(" APROVADO/A!\n")
+    }
+    se (media < 5){
+      escreva(" REPROVADO/A!\n")
+    }
+    se((media >=5)e(media <=8)){
+      escreva (" RECUPERAÇÃO!\n")
+    }
+  }
+
+
+}
