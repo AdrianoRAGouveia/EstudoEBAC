@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+      inteiro valor1, valor2, teste
+      
+      escreva ("Digite dois Valores: \n")
+      leia (valor1, valor2"\n")
+
+      teste= valor1 / valor2
+
+      escreva ("O resultado é: ", teste, "\n") // na linguagem de texto Tipo de cadeia ele permite uma concatenação (a junção de letras.)
+  }
+}
