@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+   inteiro numeroTeste, resto, contaMultiplos =0
+
+   escreva("Digite um número para sabermos quantos multiplos ele possui. \n")
+   leia(numeroTeste)
+
+   para (inteiro i=1; i<= numeroTeste; i++){
+      resto = numeroTeste % i
+      se(resto == 0){
+        contaMultiplos = contaMultiplos + 1
+      }
+   } 
+   escreva ("O Número digitado possui:  ", contaMultiplos, " multiplos")
+  }
+}
