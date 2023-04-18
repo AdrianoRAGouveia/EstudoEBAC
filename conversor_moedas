@@ -1,0 +1,26 @@
+programa {
+  funcao inicio() {
+    real valorDolar, valorReal, cotacaoDolar
+    inteiro  opcao
+    
+    escreva ("Se você quer converter de Real para Dólar, digite 1. Ou...\nSe você quer converter de Dóla para Real, Digite 2. \nEscolha a opção: ")
+    leia(opcao)
+
+    escreva ("Qual é a cotação do Dólar hoje:\n ")
+    leia(cotacaoDolar)
+
+    se(opcao == 1){
+      escreva("\nOlá! Vamos Converter os seus Reais para Dólar. \nDigite quantos Reais você deseja Converter:  ")
+      leia(valorReal)
+      valorDolar = valorReal / cotacaoDolar
+      escreva ("\n", valorReal, " em Reais equivale a ", valorDolar, " em Dólares. \n" )
+      } 
+
+    senao se (opcao == 2){
+      escreva("\n Olá Vamos Converter os seus Dólares para Reais. \nDigite quantos Dolares você deseja Converter: ")
+      leia(valorDolar)
+      valorReal = valorDolar * cotacaoDolar
+      escreva ("\n", valorDolar, " em Dólares equivale a ", valorReal, " em Reais. \n" )
+    }
+  }
+}
