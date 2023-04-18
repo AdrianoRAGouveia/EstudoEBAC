@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro valor1,contador =1
+    /*contador=1*/
+
+    escreva("Digite um valor: \n")
+    leia(valor1)
+
+    façA{
+      escreva(contador, " - ")
+      contador=contador +1
+    }enquanto (contador <=10)
+  }
+}
