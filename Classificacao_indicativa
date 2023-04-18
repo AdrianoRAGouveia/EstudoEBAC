@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+    escreva ("Digite sua idade para classificação de idade indicada: ")
+    leia(idade)
+
+    se(idade < 10){
+      escreva("Classificação LIVRE\n")
+    }
+    se((idade>=10)e(idade<12)){
+      escreva("Indicado para Classificação de 10 anos \n")
+    }
+    se((idade>=12)e(idade <14)){
+      escreva("Indicado para Classificação de 12 anos \n")
+    }
+    se((idade>=14)e(idade <16)){
+      escreva("Indicado para Classificação de 14\n")
+    }
+    se((idade>=16)e(idade <18)){
+      escreva("Indicado para Classificação de 16 anos\n")
+    }
+    se(idade >=18){
+      escreva("INDICADO PARA MAIORES DE 18 ANOS  ")
+    }
+    }
+  }
+}
