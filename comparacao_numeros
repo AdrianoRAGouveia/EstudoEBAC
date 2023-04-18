@@ -1,0 +1,34 @@
+programa {
+  funcao inicio() {
+    real num1, num2, padrao
+    padrao = 25.0
+
+    escreva ("Vamos comparar o tamanho dos Objetos. \n")
+    escreva("O padrão é ", padrao," cm!\n ")
+
+    escreva ("Digite o primeiro Valor: \n")
+    leia( num1)
+    escreva("Voceê Digitou o primeiro valor: ",num1, ".\n" )
+
+    escreva ("Digite o segundo Valor: \n")
+    leia(num2)
+    escreva("Voceê Digitou o segundo valor:",num2,". \n\n" )
+
+    se(num1 < padrao){
+      escreva("O primeiro Valor é menor que ", padrao, "cm \n")
+    }
+
+    se(num1 > padrao){
+      escreva("O primeiro Valor é maior que ", padrao, "cm \n")
+    }
+
+    se(num2 < padrao){
+      escreva("O segundo Valor é menor que ", padrao, "cm \n")
+    }
+
+    se(num2 > padrao){
+      escreva("O segundo Valor é maior que ", padrao, "cm \n")
+    }
+
+  }
+}
